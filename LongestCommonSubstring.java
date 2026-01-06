@@ -8,7 +8,7 @@ class Solution
         {
             return "";
         }
-        else
+        else 
         {
             pre = strs[0].toCharArray();
             for(i=0;i<strs.length;i++)
@@ -23,7 +23,7 @@ class Solution
                 k++;
                } 
 
-               pre = new char[k];
+               pre = new char[k]; //every time new prefix is stored
 
                for(j=0;j<k;j++)
                {
