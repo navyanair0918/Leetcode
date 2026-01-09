@@ -5,8 +5,8 @@ class Solution {
             return false;
         }
 
-        int reversedHalf = 0;
-
+        int reversedHalf = 0; //tp check if the palindrome is matching or not
+  
         while (x > reversedHalf) {
             reversedHalf = reversedHalf * 10 + x % 10;
             x = x / 10;
