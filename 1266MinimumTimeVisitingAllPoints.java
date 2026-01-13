@@ -13,7 +13,6 @@ class Solution {
             int dx = Math.abs(x2 - x1);
             int dy = Math.abs(y2 - y1);
 
-            // Minimum time to move between two points
             totalTime += Math.max(dx, dy);
         }
 
